@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                     if (charRead <= 0)
                         break;
                     tempBuffer.append(String.copyValueOf(inputBuffer, 0, charRead));
-
+//commment test github
                 }
             /*END*/
                 return tempBuffer.toString();
